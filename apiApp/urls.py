@@ -7,4 +7,5 @@ router.register(r'programmers', views.ProgrammerViewSet)
 
 urlpatterns = [
   path('', include(router.urls)),
+  path('sales_types/', views.SaleTypeViewAPI.as_view())
 ]

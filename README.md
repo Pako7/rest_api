@@ -18,3 +18,4 @@ pako
 python manage.py runserver
 
 pip install djangorestframework
+pip install coreapi
